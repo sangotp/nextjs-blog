@@ -1,0 +1,7 @@
+# Block all crawlers for /api/hello
+user-agent: *
+Disallow: /api/hello
+
+# Allow all crawlers
+user-agent: *
+Allow: /
